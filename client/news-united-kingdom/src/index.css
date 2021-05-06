@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0  ;
+  font-family:  sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 8px;
+    position: relative ;
+}
+
+body:before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url('./assets/news-background.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+     opacity: 0.6;
+}
+.weather-forecast-app {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
